@@ -1,1 +1,1 @@
-This description was changed on main.
+This project description combines the main and feature-1 changes.
