@@ -1,31 +1,35 @@
-# SE-Git-hw1 ReadMe
+# CINS Software Engineering 5318 - Assignment #1
 
-CINS Software Engineering 5318- Assignment #1
+This repository was created for CINS 5318 – Software Engineering as part of Assignment #1: Version Control Using GitHub.
 
-This repository was created for INS 5318 – Software Engineering 
-as part of Assignment #1: Version Control Using GitHub.
+The purpose of this project is to demonstrate the use of Git and GitHub for version control, including creating and managing repositories, working with branches, committing changes, merging branches, resolving merge conflicts, using GitHub Issues, and maintaining project documentation.
 
-The purpose of this project is to demonstrate the use of Git and GitHub 
-for version control, including creating and managing repositories, working 
-with branches, committing changes, merging branches, resolving merge 
-conflicts, using GitHub Issues, and maintaining project documentation.
+## Requirements
 
-Python must be installled, to run
+Python must be installed to run the programs.
 
-Repository Files: apple.py (Prints "I eat apples" message), 
-hello.py(Prints "Hello, World! Merge conflict resolved." message),
+## Repository Files
 
-Git Workflow:
-1. Created the repository, cloned it to my local machine, then commited hello.py
-2. Created a branch called feature-1 and added apple.py
-3. Open a pull request to merge feature-1 into main, later merged it ater pull request
-confirmed.
-4. Simulated a mergeconflict by editing the same line of code on two seperate branches.
-I resolved the conflict by manually edited the conflicting changes.
-5. Created two issues one assigned to myself and one to a classmate. Tracked issues
-with Git issues tab.
+- `apple.py` - Prints the "I eat apples" message and asks the user what fruit they like to eat.
+- `hello.py` - Prints the "Hello, World! Merge conflict resolved." message.
 
-Issues:
-1: Add user fruit input into apple.py (Self-Assigned)
-2: Review project documentation. Check the README for spelling or formatting issues.
-Leave a comment with any recommended changes. (Assigned to Classmate)
+## Git Workflow
+
+1. Created the repository, cloned it to my local machine, and then committed `hello.py`.
+
+2. Created a branch called `feature-1` and added `apple.py`.
+
+3. Opened a pull request to merge `feature-1` into `main`. The branches were merged after the pull request was confirmed.
+
+4. Simulated a merge conflict by editing the same line of code differently on two separate branches. I resolved the conflict by manually editing the conflicting changes and committing the resolved version.
+
+5. Created two GitHub Issues: one assigned to myself and one assigned to a classmate. The issues were tracked using the GitHub Issues tab.
+
+## Issues
+
+1. **Add User Fruit Input into `apple.py` (Self-Assigned)**
+   - Added a feature that asks the user what fruit they like to eat.
+
+2. **Review Project Documentation (Assigned to Classmate)**
+   - Review the README for spelling or formatting issues.
+   - Leave a comment with any recommended changes.
