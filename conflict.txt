@@ -1,1 +1,0 @@
-This project description combines the main and feature-1 changes.
